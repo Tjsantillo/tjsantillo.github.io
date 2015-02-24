@@ -1,4 +1,12 @@
+h1  {
+	font-size: 72px;
+	text-align: center;
+	font-family: monospace;
+     
+}
 body {
-	color:green;
-	background-color: purple
+	color:white;
+	background-color: #9b59b6;
+	font-size: 48px;
+	text-align: center;
 }
