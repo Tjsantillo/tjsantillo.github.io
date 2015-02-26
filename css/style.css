@@ -1,12 +1,14 @@
-h1  {
-	font-size: 72px;
-	text-align: center;
-	font-family: monospace;
-     
-}
 body {
 	color:white;
 	background-color: #9b59b6;
-	font-size: 48px;
+	font-size: 16px;
 	text-align: center;
+}
+h1  {
+	font-size: 4.5em;
+	font-family: monospace;
+	margin-bottom:1em;
+}
+p {
+	font-size:3em;
 }
