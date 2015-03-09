@@ -1,14 +1,15 @@
 body {
 	color:white;
-	background-color: #9b59b6;
+	background-color: #019875;
 	font-size: 16px;
-	text-align: center;
+	text-align:center;
 }
 h1  {
-	font-size: 4.5em;
-	font-family: monospace;
+	font-size: 3em;
+	font-family: helvetica;
 	margin-bottom:1em;
 }
-p {
-	font-size:3em;
+#slogan {
+	font-style: italic;
+	font-size: 2em;
 }
