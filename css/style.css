@@ -1,15 +1,27 @@
 body {
 	color:white;
 	background-color: #019875;
+	font-family: Georgia; 
 	font-size: 16px;
-	text-align:center;
+	width: 30%;
+	height: 30%;
+	margin: auto;
 }
+
 h1  {
 	font-size: 3em;
-	font-family: helvetica;
+	font-family: "Arial Black";
+	font-weight: 100;
 	margin-bottom:1em;
+}
+li {
+	font-weight:bold;
 }
 #slogan {
 	font-style: italic;
 	font-size: 2em;
+	background: gray, 3em;
+}
+#contact {
+	text-decoration: none;
 }
