@@ -1,16 +1,13 @@
+* {margin:0;padding:0;box-sizing:border-box;}
 body {
 	color:white;
 	background-color: #019875;
-	font-family: Georgia; 
+	font-family: Georgia, serif; 
 	font-size: 16px;
-	width: 30%;
-	height: 30%;
-	margin: auto;
 }
-
 h1  {
 	font-size: 3em;
-	font-family: "Arial Black";
+	font-family: "Arial Black", sans-serif;
 	font-weight: 100;
 	margin-bottom:1em;
 }
@@ -20,11 +17,19 @@ li {
 img {
 	padding-left:4em;
 }
+#about div {
+	margin:auto;
+	width:600px;
+}
+#contact {
+	margin:auto;
+	width:600px;
+}
 #slogan {
 	font-style: italic;
 	font-size: 1.2em;
 	background: gray, 3em;
 }
-#contact {
+#contact a{
 	text-decoration: none;
 }
