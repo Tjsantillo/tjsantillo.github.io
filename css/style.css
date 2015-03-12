@@ -17,9 +17,12 @@ h1  {
 li {
 	font-weight:bold;
 }
+img {
+	padding-left:4em;
+}
 #slogan {
 	font-style: italic;
-	font-size: 2em;
+	font-size: 1.2em;
 	background: gray, 3em;
 }
 #contact {
