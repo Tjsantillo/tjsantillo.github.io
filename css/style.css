@@ -1,9 +1,10 @@
++* {margin:0;padding:0;box-sizing:border-box;}
 @import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:700);
 @import url(http://fonts.googleapis.com/css?family=Slabo+27px);
 @import url(http://fonts.googleapis.com/css?family=Fira+Sans:500);
-+* {margin:0;padding:0;box-sizing:border-box;}
+
 body {
-	color:white;
+	color:#746b6c;
 	background:url("https://campervancrazy.files.wordpress.com/2012/02/image4_mountain_road.jpg");
 	background-size:cover;
 	font-family: "Slabo 27px", serif;
@@ -32,4 +33,9 @@ img {
 }
 #contact {
 	text-decoration: none;
+	color:white;
 }
+#about {
+	background: rgba(255, 255, 255, 0.8);
+}
+
