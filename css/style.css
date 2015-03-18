@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:700);
 @import url(http://fonts.googleapis.com/css?family=Slabo+27px);
 @import url(http://fonts.googleapis.com/css?family=Fira+Sans:500);
@@ -11,27 +10,14 @@ body {
 	font-size: 18px;
 	width: 50%;
 	margin: auto;
-=======
-* {margin:0;padding:0;box-sizing:border-box;}
-body {
-	color:white;
-	background-color: #019875;
-	font-family: Georgia, serif; 
-	font-size: 16px;
->>>>>>> origin/master
 }
+
 h1  {
 	font-size: 3em;
-<<<<<<< HEAD
 	font-family: "Fira Sans", cursive; 
 	font-weight: 500;
 	margin-bottom:0em;
 
-=======
-	font-family: "Arial Black", sans-serif;
-	font-weight: 100;
-	margin-bottom:1em;
->>>>>>> origin/master
 }
 li {
 	font-weight:bold;
@@ -39,19 +25,11 @@ li {
 img {
 	padding-left:12em;
 }
-#about div {
-	margin:auto;
-	width:600px;
-}
-#contact {
-	margin:auto;
-	width:600px;
-}
 #slogan {
 	font-style: italic;
 	font-size: 1.2em;
 	background: gray, 3em;
 }
-#contact a{
+#contact {
 	text-decoration: none;
 }
