@@ -30,6 +30,9 @@ img {
 }
 #contact a {
 	color:white;
+	margin-top:6em;
+	margin-left:6em;
+	
 }
 #about {
 	background: rgba(255, 255, 255, 0.8);
