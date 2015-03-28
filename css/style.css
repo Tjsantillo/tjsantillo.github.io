@@ -18,7 +18,7 @@ h1  {
 img {
 	padding-left:12em;
 }
-}
+
 #slogan {
 	font-style: italic;
 	font-size: 1.2em;
@@ -29,18 +29,28 @@ img {
 	margin-left:6em;
 	
 }
-#about 
+#about {
 	padding:3em;
 }
 footer {
 	font-size:.8em;
 	text-align:right;
-	color: white;
+	color: red;
 }
-.services {
-	color:red;
-	float:left;
-	display: block;
-	padding-right: 3em
+.services a{
 	border: 2px #fff solid;
+	background-color: gray;
+	color:white;
+	display: block;
+	float:left;
+	margin: 1em;
+	padding: 1em;
+	text-decoration:none;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
