@@ -1,56 +1,9 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 
 body {
-	color:#f6f8f9;
-	font-family: 'Slabo 27px', serif;
-	font-size: 18px;
-	background:url("https://campervancrazy.files.wordpress.com/2012/02/image4_mountain_road.jpg");
-	background-size:cover;
+		background: url("https://campervancrazy.files.wordpress.com/2012/02/image4_mountain_road.jpg");
+		background-size: cover;
 }
-
-h1  {
-	font-family: "Fira Sans", cursive; 
-	font-weight: 500;
-	font-size: 3em;
-	margin-bottom:0em;
-
-}
-img {
-	padding-left:12em;
-}
-
-#slogan {
-	font-style: italic;
-	font-size: 1.2em;
-}
-#contact a {
-	color:white;
-	margin-top:6em;
-	margin-left:6em;
-	
-}
-#about {
-	padding:3em;
-}
-footer {
-	font-size:.8em;
-	text-align:right;
-	color: red;
-}
-.services a{
-	border: 2px #fff solid;
-	background-color: gray;
-	color:white;
-	display: block;
-	float:left;
-	margin: 1em;
-	padding: 1em;
-	text-decoration:none;
-}
-.clearfix:after { 
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
-	clear: both;
+.main {
+	background-color:blue;
 }

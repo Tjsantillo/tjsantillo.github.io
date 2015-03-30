@@ -1,0 +1,66 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body {
+	background:#4183D7;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+h1{
+ color:white;
+ font-family: 'Raleway', sans-serif;
+ text-align:center;
+}
+.dresses{
+	background:gray;
+	width:80%;
+	border:2px white solid;
+	margin-left:4em;
+	padding-left:3em;
+}
+.dresses img{
+	border: 2px white solid;
+	background:blue;
+	margin-left: 4em;
+}
+.home p{
+	background:gray;
+	color: white;
+	margin-bottom: 4em;
+	margin-left:20em;
+	width:40%; 
+	text-align: center;
+}
+.policy p{
+	background:gray;
+	color: white;
+	margin-bottom: 4em;
+	margin-left:20em;
+	width:40%; 
+	text-align: center;
+}
+.navbar{
+   position: fixed;
+   top: 0;
+}
+.navbar a{
+	border: 2px #fff solid;
+	background-color: gray;
+	color:white;
+	display: block;
+	float:right;
+	margin: 1em;
+	padding: 1em;
+	text-decoration:none;
+}
+.navbar p{
+	float:left;
+	color:white;
+	font-size: 3em;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
