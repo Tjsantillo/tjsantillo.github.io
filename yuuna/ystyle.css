@@ -22,7 +22,14 @@ h1{
 	background:blue;
 	margin-left: 4em;
 }
-.home p{
+.home {
+	color: white;
+	margin-bottom: 4em;
+	margin-left:20em;
+	width:40%; 
+	text-align: center;
+}
+.policy {
 	background:gray;
 	color: white;
 	margin-bottom: 4em;
@@ -30,19 +37,7 @@ h1{
 	width:40%; 
 	text-align: center;
 }
-.policy p{
-	background:gray;
-	color: white;
-	margin-bottom: 4em;
-	margin-left:20em;
-	width:40%; 
-	text-align: center;
-}
-.navbar{
-   position: fixed;
-   top: 0;
-}
-.navbar a{
+nav a{
 	border: 2px #fff solid;
 	background-color: gray;
 	color:white;
@@ -52,15 +47,8 @@ h1{
 	padding: 1em;
 	text-decoration:none;
 }
-.navbar p{
+nav p{
 	float:left;
 	color:white;
 	font-size: 3em;
-}
-.clearfix:after { 
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
-	clear: both;
 }
