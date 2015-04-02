@@ -10,44 +10,50 @@ h1{
 	font-family: 'Raleway', sans-serif;
 	margin-left: 3em;
 }
-.dresses{
+section {
+	padding:4em 2em;
+}
+#dresses{
 	background:#6C7A89;
-	background-size: cover;
-	width:80%;
-	margin-left:4em;
-	padding-left:3em;
 }
-.dresses img{
-	background:blue;
-	background-size: cover;
-	margin-left: 4em;
+#dresses img{
+	float:left;
+	padding:.5em;
+	width:25%;
 }
-.about {
-	background: #red;
+#about {
+	background: red;
 	color: white;
-	margin-bottom: 90em;
-	margin-left:20em;
-	width:40%; 
 	text-align: center;
 }
-.policy {
+}
+#policy {
 	color: white;
-	margin-bottom: 4em;
-	margin-left:20em;
-	width:40%; 
 	text-align: center;
+}
+header div {
+	float:left;
+}
+nav {
+	float:right;
 }
 nav a{
 	background-color: #6C7A89;
 	color:white;
 	display: block;
-	float:right;
+	float:left;
 	margin: 1em;
 	padding: 1em;
 	text-decoration:none;
 }
-nav p{
-	float:left;
-	color:white;
-	font-size: 3em;
+.wrapper {
+	margin:auto;
+	max-width:75em;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
