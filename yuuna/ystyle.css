@@ -31,8 +31,21 @@ section {
 	color: white;
 	text-align: center;
 }
+header {
+	padding:1em;
+}
 header div {
 	float:left;
+}
+header img {
+	float:left;
+	width:100px;
+}
+header p {
+	color:#fff;
+	float:left;
+	font-size:4em;
+	margin:.25em 0 0 0;
 }
 nav {
 	float:right;
