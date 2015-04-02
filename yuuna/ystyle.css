@@ -6,31 +6,31 @@ body {
 	font-size: 16px;
 }
 h1{
- color:white;
- font-family: 'Raleway', sans-serif;
- text-align:center;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 3em;
 }
 .dresses{
-	background:gray;
+	background:#6C7A89;
+	background-size: cover;
 	width:80%;
-	border:2px white solid;
 	margin-left:4em;
 	padding-left:3em;
 }
 .dresses img{
-	border: 2px white solid;
 	background:blue;
+	background-size: cover;
 	margin-left: 4em;
 }
-.home {
+.about {
+	background: #red;
 	color: white;
-	margin-bottom: 4em;
+	margin-bottom: 90em;
 	margin-left:20em;
 	width:40%; 
 	text-align: center;
 }
 .policy {
-	background:gray;
 	color: white;
 	margin-bottom: 4em;
 	margin-left:20em;
@@ -38,8 +38,7 @@ h1{
 	text-align: center;
 }
 nav a{
-	border: 2px #fff solid;
-	background-color: gray;
+	background-color: #6C7A89;
 	color:white;
 	display: block;
 	float:right;
