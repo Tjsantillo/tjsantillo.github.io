@@ -13,7 +13,7 @@ h1{
 section {
 	padding:4em 2em;
 }
-#dresses{
+#dresses {
 	background:#6C7A89;
 }
 #dresses img{
@@ -22,10 +22,9 @@ section {
 	width:25%;
 }
 #about {
-	background: red;
+	background: #f6c217;
 	color: white;
 	text-align: center;
-}
 }
 #policy {
 	color: white;
