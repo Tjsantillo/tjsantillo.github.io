@@ -13,9 +13,6 @@ h1{
 section {
 	padding:4em 2em;
 }
-#dresses {
-	background:#6C7A89;
-}
 #dresses img{
 	float:left;
 	padding:.5em;
@@ -27,6 +24,7 @@ section {
 	text-align: center;
 }
 #policy {
+	background: #f6c217;
 	color: white;
 	text-align: center;
 }
@@ -50,7 +48,8 @@ nav {
 	float:right;
 }
 nav a{
-	background-color: #6C7A89;
+	background-color: #f6c217;
+	border-radius: .25em;
 	color:white;
 	display: block;
 	float:left;
