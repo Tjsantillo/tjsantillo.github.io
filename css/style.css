@@ -1,9 +1,26 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 
-body {
-		background: url("https://campervancrazy.files.wordpress.com/2012/02/image4_mountain_road.jpg");
-		background-size: cover;
+header {
+	background: url("https://campervancrazy.files.wordpress.com/2012/02/image4_mountain_road.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height:100vh;
 }
-.main {
-	background-color:blue;
+nav{
+	float:right;
+}
+body {
+	background:#ECECEC;;
+}
+body p{
+	font-size:20px;
+}
+#intro {
+	color:#ECECEC;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
+	font-size:1.5em;
+	padding:4em;
+	text-align: center;
+	
 }
