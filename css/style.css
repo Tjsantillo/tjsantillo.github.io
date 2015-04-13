@@ -8,19 +8,50 @@ header {
 }
 nav{
 	float:right;
+	padding:1em;
 }
-body {
-	background:#ECECEC;;
+body{
+	font-size: 20px;
 }
-body p{
-	font-size:20px;
+#main {
+	background:#27ae60;
+	font-family: 'Slabo 27px', serif;
+	height: 400px;
+	padding: 1.5em;
 }
+#main h2 {
+	font-size:2em;
+}
+#main p {
+	color:#ECECEC;
+	font-size:1.5em;
+}
+
 #intro {
 	color:#ECECEC;
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 500;
 	font-size:1.5em;
-	padding:4em;
+	padding:6em;
 	text-align: center;
-	
+}
+#intro h2 {
+	font-size:1em;
+}
+#work{
+	background:#52B3D9;
+	color:black;
+	font-family: 'Slabo 27px', serif;
+	padding:2em;
+}
+#work  img{
+	width:20%;
+	padding:.5em;
+}
+#work h2{
+	font-size:2em;
+}
+footer {
+	float:right;
+	display:block;
 }
