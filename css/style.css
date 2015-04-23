@@ -21,10 +21,13 @@ body{
 }
 #main h2 {
 	font-size:2em;
+	text-align: center;
 }
 #main p {
 	color:#ECECEC;
 	font-size:1.5em;
+	width: 60%;
+	margin-left: 4em
 }
 
 #intro {
@@ -47,11 +50,37 @@ body{
 #work  img{
 	width:20%;
 	padding:.5em;
+	margin-left:2em;
 }
 #work h2{
 	font-size:2em;
+	margin-left:3em;
 }
 footer {
 	float:right;
 	display:block;
 }
+
+@media screen and (max-width: 1100px){
+	nav {
+		float:left;
+		margin: 3em;
+	}
+	#intro {
+		font-size:1em;
+	}
+	#main {
+		font-size:1em;
+	}
+	#work {
+		font-size:1em;
+	}
+}
+@media screen and (max-width: 400px){
+	nav {
+
+	}
+	#work {
+		float:none;
+	}
+	}
