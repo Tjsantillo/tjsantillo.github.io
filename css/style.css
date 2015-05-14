@@ -1,6 +1,6 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 
-header {
+#logo {
 	background: url("https://campervancrazy.files.wordpress.com/2012/02/image4_mountain_road.jpg");
 	background-size: cover;
 	background-attachment: fixed;
@@ -20,7 +20,6 @@ body{
 	padding:6em;
 }
 #logo img {
-	margin-bottom:1em;
 }
 #logo h2 {
 	font-size:1em;
@@ -65,13 +64,11 @@ body{
 #biz {
 	float:left;
 }
-#design p {
+.me {
 	font-size: 2em;
 	font-family: 'Slabo 27px', serif;
-}
-#biz p {
-	font-size: 2em;
-	font-family: 'Slabo 27px', serif;
+	width: 50%;
+	text-align: center;
 }
 
 footer {
@@ -102,11 +99,17 @@ footer {
 		font-size:1em;
 	}
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 410px){
 	nav {
 
 	}
-	#services {
+	#logo {
+	background: url("https://lh4.googleusercontent.com/-wAtY-wo8DGg/VVQK8orZEfI/AAAAAAAACs8/BKif5O-T2og/w388-h300-no/background400px.png");
+	background-size: cover;
+	background-attachment: fixed; 
+}
+	
+	.me {
 		float:none;
 	}
 	}
