@@ -89,10 +89,10 @@ footer {
 	clear: both;
 }
 
-@media screen and (max-width: 930px){
+@media only screen and (min-width:411px) and (max-width: 930px){
 	nav {
 	}
-	##logo {
+	#logo {
 		background: url("../images/background930px.png");
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -109,6 +109,9 @@ footer {
 	}
 }
 @media screen and (max-width: 410px){
+	body {
+		font-size:16px;
+	}
 	nav {
 		float:left;
 	}
@@ -123,16 +126,13 @@ footer {
 	}
 	#hello
 	{
-		font-size:.5em;
 		width:100%;
 		margin:auto;
 	}
 	#services{
-		font-size:.5em;
 	}
-	
 	.me {
 		float:none;
 		width:100%;
 	}
-	}
+}
