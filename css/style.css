@@ -87,6 +87,12 @@ footer {
 @media screen and (max-width: 930px){
 	nav {
 	}
+	##logo {
+		background: url("../images/background930px.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		width:100%; 
+	}
 	#intro {
 		font-size:1em;
 	}
@@ -99,7 +105,7 @@ footer {
 }
 @media screen and (max-width: 410px){
 	nav {
-
+		float:left;
 	}
 	#logo {
 		background: url("../images/background400px.png");
