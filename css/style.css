@@ -18,11 +18,16 @@ body{
 	height: 100vh;
 	padding:1em;
 }
+#logo div {
+	float:left;
+}
 #logo img {
-
+	display:block;
+	margin:0 auto .5em;
 }
 #logo h2 {
 	font-size:1em;
+	text-align:center;
 }
 #hello {
 	background:#27ae60;
