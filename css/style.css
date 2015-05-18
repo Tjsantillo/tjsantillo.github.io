@@ -93,14 +93,10 @@ footer {
 @media only screen and (min-width:411px) and (max-width: 930px){
 	nav {
 	}
-<<<<<<< Updated upstream
-	#logo {
-=======
 	body {
 		font-size:18px;
 	}
-	##logo {
->>>>>>> Stashed changes
+	#logo {
 		background: url("../images/background930px.png");
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -122,9 +118,6 @@ footer {
 	}
 	nav {
 		float:left;
-	}
-	body {
-		font-size:16px;
 	}
 	#logo {
 		background: url("../images/background400px.png");
