@@ -43,9 +43,9 @@ body{
 #hello p {
 	color:#ECECEC;
 	font-size:1.5em;
-	width: 66%;
 	text-align:center;
 	margin: auto;
+	width:100%;
 }
 #services{
 	background:#52B3D9;
@@ -96,7 +96,7 @@ footer {
 	#logo {
 =======
 	body {
-		font-size:16px;
+		font-size:18px;
 	}
 	##logo {
 >>>>>>> Stashed changes
@@ -134,8 +134,7 @@ footer {
 	#logo img{
 		margin:auto;
 	}
-	#hello
-	{
+	#hello {
 		width:100%;
 		margin:auto;
 	}
