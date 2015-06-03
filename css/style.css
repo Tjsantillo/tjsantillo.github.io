@@ -40,6 +40,11 @@ body{
 	text-align:center;
 
 }
+#hello img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 #hello p {
 	color:#ECECEC;
 	font-size:1.5em;
@@ -65,10 +70,11 @@ body{
 .me {
 	font-size: 2em;
 	font-family: 'Slabo 27px', serif;
-	float:left;
 	margin-left: auto;
+	margin-right:auto;
+	padding:1em;
 	text-align: center;
-	width: 30%
+	width: 75%
 }
 
 footer {
